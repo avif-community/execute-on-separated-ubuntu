@@ -1,11 +1,11 @@
-name: 'Execute a script on separeted ubuntu environment'
+name: 'Execute a script on seperated ubuntu environment'
 description: 'execute a script on prepared ubuntu environment'
 inputs:
   script:
     description: 'Relative path of script to execute.'
     required: true
   on:
-    description: 'Codename of ubuntu version, e.g. bionic, focal'
+    description: 'Codename of ubuntu version, e.g. focal, jammy'
     required: true
 outputs: {}
 runs:
