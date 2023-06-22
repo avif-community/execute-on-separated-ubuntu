@@ -32,7 +32,7 @@ jobs:
           submodules: 'recursive'
           fetch-depth: 0
       - name: Build the binary
-        uses: avif-community/execute-on-separated-ubuntu@v1
+        uses: avif-community/execute-on-separated-ubuntu@main
         with:
           on: ${{ matrix.codename }}
           script: scripts/build.sh
